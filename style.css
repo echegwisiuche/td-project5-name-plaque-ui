@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+
+body{
+    background-color: #2e3232;
+}
+
+section{
+    margin: 20vh 20vw; padding: 30px; color: white;    
+}
+
+h1{
+    font-size: 3rem;
+}
+
+p{
+    font-weight: 100;
+}
+
+input{
+    padding: 15px; width: 35%; background-color: transparent; color: gray; border: 1px solid; font-weight: 100;
+}
+
+.details{
+    display: flex; padding-top: 3rem;
+}
+
+.nameBox1{
+    background-color: rgb(215, 68, 125); width: 40%; height: 15vh; padding: 10px 10px 10px 10px;
+}
+
+.nameBox2{
+    background-color: white; border-radius: 5px; height: 100%; width: 100%; padding-top: 10%;
+}
+
+.printName{
+    font-family: 'Courier New', Courier, monospace; font-weight: bolder; text-align: center; color: black; width: 100%; font-size: xx-large; border: solid;
+    margin: 3%; margin-right: 3%;
+}
+
+.purchase{
+    padding-left: 20px;
+}
+
+.cost{
+    color: black; background-color: white; font-family: 'Courier New', Courier, monospace; font-weight: bold; height: 5vh; width: 150%; text-align: center;
+    border-color: transparent;font-size: larger; 
+}
+
+button{
+    background-color: rgb(9, 139, 159); color: white; height: 5vh; width: 100%; border-color: transparent;
+}
